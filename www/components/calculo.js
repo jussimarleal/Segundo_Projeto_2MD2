@@ -35,8 +35,8 @@ $(document).on("click","#igual",function(){
   zerarDisplay();
 
   if(operador == "+"){
-    textoDisplay = parseFloat(valor1) + parseFloat(valor2);
-    $(".display").val(textoDisplay);
+    resultado = parseFloat(valor1) + parseFloat(valor2);
+    textoDisplay = resultado;     
   }
 
   if(operador == "-"){
