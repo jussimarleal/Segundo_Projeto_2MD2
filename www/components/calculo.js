@@ -33,8 +33,8 @@ $(document).on("click",".ope",function(){
 $(document).on("click","#igual",function(){
   var valor2 = textoDisplay;
   zerarDisplay();
-
-  if(operador == "+"){
+  
+  if(operador == "+" ){
     textoDisplay = parseFloat(valor1) + parseFloat(valor2);
   }
 
@@ -49,6 +49,6 @@ $(document).on("click","#igual",function(){
   if(operador == "/"){
     textoDisplay = parseFloat(valor1) / parseFloat(valor2);
   }
-
-  $(".display").val(textoDisplay);
+   $(".display").val(textoDisplay);
+    
 })
