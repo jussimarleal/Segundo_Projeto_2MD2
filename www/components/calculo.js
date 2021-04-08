@@ -36,21 +36,20 @@ $(document).on("click","#igual",function(){
 
   if(operador == "+"){
     textoDisplay = parseFloat(valor1) + parseFloat(valor2);
-    $(".display").val(textoDisplay);   
+    $(".display").val(textoDisplay); 
   }
 
   if(operador == "-"){
     textoDisplay = parseFloat(valor1) - parseFloat(valor2);
-    $(".display").val(textoDisplay);
   } 
 
   if(operador == "*"){
     textoDisplay = parseFloat(valor1) * parseFloat(valor2);
-    $(".display").val(textoDisplay);
   }
 
   if(operador == "/"){
     textoDisplay = parseFloat(valor1) / parseFloat(valor2);
-    $(".display").val(textoDisplay);
   }
+
+  $(".display").val(textoDisplay);
 })
